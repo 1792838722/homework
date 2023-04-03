@@ -26,7 +26,7 @@ class Number{
                     numbers[0] = -1;
                 }
             }
-            if(numbers[0] == -1)
+            if(numbers[0] != -1)
                 std::cout << "none";
         }
     private:
@@ -41,6 +41,5 @@ int main()
     nums->init();
     nums->print();
     delete nums;
-    system("pause");
     return 0;
 }
