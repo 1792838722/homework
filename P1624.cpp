@@ -57,6 +57,7 @@ int main()
         scanf("%d/%d%d/%d",&fz1,&fm1,&fz2,&fm2);
         plus *comb = new plus(fz1,fm1,fz2,fm2);
         comb->tongFen(),comb->cal();
+        delete comb;
     }
     return 0;
 }
