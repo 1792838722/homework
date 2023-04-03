@@ -55,5 +55,6 @@ int main()
     std::cin >> x;
     email *adr = new email(x);
     adr->checkAll() ? std::cout << "yes" : std::cout << "no";
+    delete adr;
     return 0;
 }
