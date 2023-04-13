@@ -11,7 +11,7 @@ class Problem
         {
             int size = time.size();
             time.insert(0,4 - size,'0');
-            std::stringstream str;
+            std::stringstream str; // 字符流操作
             str << time.substr(0,2);
             str >> hr;
             str.clear();
