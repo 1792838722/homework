@@ -33,6 +33,5 @@ int main()
     Problem *prom = new Problem(str);
     prom->solve();
     delete prom;
-    system("pause");
     return 0;
 }
