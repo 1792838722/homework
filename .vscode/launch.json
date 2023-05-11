@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "(gdb) Launch",
-            "preLaunchTask": "gcc.exe build active file",
+            "preLaunchTask": "g++.exe build active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "name": "C/C++: gcc.exe 生成和调试活动文件",
+            "name": "C/C++: g++.exe 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -46,10 +46,10 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: gcc.exe 生成活动文件"
+            "preLaunchTask": "C/C++: g++.exe 生成活动文件"
         },
         {
-            "name": "C/C++: gcc.exe 生成和调试活动文件",
+            "name": "C/C++: g++.exe 生成和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -72,7 +72,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: gcc.exe 生成活动文件"
+            "preLaunchTask": "C/C++: g++.exe 生成活动文件"
         }
     ]
 }
